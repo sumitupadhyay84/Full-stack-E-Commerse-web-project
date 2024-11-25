@@ -1,0 +1,25 @@
+.profile{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.profile .card{
+    border-radius: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 20px;
+    padding: 2rem;
+    width: 400px;
+    height: 500px;
+    border: 1px solid rgba(128, 128, 128, 0.267);
+    border-radius: 20px;
+    box-shadow: 5px 5px 5px rgba(44, 44, 44, 0.151);
+}
+.profile input{
+    width: 350px;
+}
+.profile .card button {
+    width: 350px;
+}

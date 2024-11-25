@@ -1,0 +1,63 @@
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family:'Roboto';
+  user-select: none !important;
+  overflow-x: hidden !important;
+  width: 100vw;
+  height: 100vh;
+}
+
+img{
+  overflow: hidden;
+  object-fit: cover;
+}
+
+a{
+  text-decoration: none !important;
+}
+.search-box{
+  display: flex;
+  margin: 1rem;
+  justify-content: center;
+}
+.search-box input{
+  width: 30em;
+  padding: 10px 15px;
+}
+
+.BackBtn a{
+  color: #1976d2;
+}
+.MuiBreadcrumbs-li a{
+  color: #1976d2;
+}
+.BuyBtn a{
+  color: #ed6c02;
+}
+
+.benifits{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 15px;
+  text-align: center;
+}
+.benifits .b-item{
+  padding: 15px;
+  width: 250px;
+  height: 270px;
+  border-radius: 10px;
+}
+.benifits .b-item p{
+  margin: 20px 0;
+  color: gray;
+  font-size: 14px;
+  text-align: justify;
+  padding: 5px;
+}
+.benifits .b-icon svg{
+  margin: 20px 0;
+  font-size: 70px;
+}

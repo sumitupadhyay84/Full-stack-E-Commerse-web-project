@@ -1,0 +1,18 @@
+.checkout .form-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    border-radius: 10px;
+    gap: 15px;
+    width: 450px;
+    padding:20px 0;
+}
+.checkout form input{
+    width: 300px;
+}
+.checkout{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
